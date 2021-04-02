@@ -7,7 +7,7 @@
 
 nav{
     background-color:white;
-    height: 70px;
+    height: 15vh;
     max-width: 1400px;
     font-family: 'Roboto', serif;
     margin: 0 auto;
@@ -18,25 +18,21 @@ nav ul {
     width: 100%;
     padding: 0;
 
+
  }
 nav li{
     display: inline-block;
     width: 25%;
     text-align: center;
 }
-.logo{
-    font-family:  'Parisienne', cursive;
-    font-size: 35px;
-    font-weight: 400;
 
-}
 nav li a {
     padding: 10px;
-    line-height: 70px;
+    line-height: 15vh;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(47, 47, 49);
-    font-size:26px;
+    font-size:12px;
    
 }
 
@@ -45,7 +41,7 @@ nav li a:hover {
 }
 
 .mainFoto{
-    height:75vh;
+    height:85vh;
     position: relative;   max-width: 1400px;
     margin: 0 auto;
 }
@@ -56,12 +52,18 @@ nav li a:hover {
 background-image: url(fotos/cafe-677895_1920.jpg);
 background-size: cover;
 background-position: center;
+background-position-x: 60%;
 opacity:80%;
 }
-.mainFoto div p{
+
+.logo{
+    font-family:  'Parisienne', cursive;
+    font-size: 50px;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.753);
-  position: absolute;
-  top: 80%;
-  left: 55%;
-    font-size: 100px;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+  
+
 }
